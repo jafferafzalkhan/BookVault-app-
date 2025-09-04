@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BookVaultt</title>
+</head>
+
+<body> 
+
+    <div id="main-contain">
+        <div id="contain">
+            <div id="heading">
+                <h1>BookVault </h1>
+            </div>
+            <div id="form-items">
+                <form id="formm">
+                    <div id="form-item">
+                        <label for="Title">Title</label>
+                        <input type="text" name="Title" id="Title">
+                    </div>
+
+                    <div id="form-item">
+                        <label for="Author">Author</label>
+                        <input type="text" name="Author" id="Author">
+                   </div>
+                   <div id="form-item">
+                        <label for="ISBN">ISBN#</label>
+                        <input type="text" name="ISBN" id="ISBN">
+                 </div>
+                    <input id="add-item" type="submit" value="Add Book" style="padding: 0%;">
+                </form>
+
+            </div>
+            <table id="table-data">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN#</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
