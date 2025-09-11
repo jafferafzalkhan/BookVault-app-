@@ -38,6 +38,7 @@ Adding a Book
 Fill in the Title, Author, and ISBN fields.
 
 Click the Add Book button.
+User can remove alos by clicking on romove button 'X'
 
 The book is added to the table and stored in the browser’s local storage.
 
@@ -52,3 +53,4 @@ Alerts
 Displays notifications for successful addition or deletion.
 
 Validates that no input field is left empty.
+ 
